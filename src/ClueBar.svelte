@@ -22,7 +22,7 @@
       <polyline points="15 18 9 12 15 6"></polyline>
     </svg>
   </button>
-  <p>{clue}</p>
+  <p>{@html clue}</p>
   <button on:click="{() => dispatch('nextClue', currentClue.index + 1)}">
     <svg
       width="24"
